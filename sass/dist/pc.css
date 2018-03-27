@@ -1,0 +1,622 @@
+/* CSS Document */
+body, div, p, ul, ol, li, dl, dt, dd, table, tr, td, form, hr, fieldset, h1, h2, h3, h4, h5, h6, img, input {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  display: block;
+}
+
+body {
+  overflow-y: no;
+}
+
+.box {
+  width: 999px;
+  height: 626px;
+  background: #eee;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.box .tv {
+  width: 236px;
+  height: 300px;
+  margin-right: 13px;
+  float: left;
+}
+.box .tv .tv-one {
+  width: 148px;
+  height: 300px;
+  background: #fff;
+  padding: 0 44px;
+  position: relative;
+}
+.box .tv .tv-one :nth-child(1) {
+  width: 64px;
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  background: #ff3333;
+  font-size: 12px;
+  color: #ffffff;
+  margin-left: 43px;
+  margin-bottom: 48px;
+}
+.box .tv .tv-one :nth-child(2) {
+  display: block;
+  margin-left: 7px;
+  margin-bottom: 47px;
+}
+.box .tv .tv-one :nth-child(3) {
+  font-size: 12px;
+  line-height: 21px;
+  color: #333333;
+  padding-left: 19px;
+}
+.box .tv .tv-one :nth-child(4) {
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 18px;
+}
+.box .tv .tv-one :nth-child(5) {
+  line-height: 45px;
+  font-size: 10px;
+  color: #ff6600;
+}
+.box .tv .tv-one :nth-child(6) {
+  line-height: 45px;
+  font-size: 10px;
+  color: #cc9999;
+  text-decoration: line-through;
+}
+.box .tv:hover .one-hide {
+  transform: translateY(-93px);
+  transition: all 1s;
+}
+.box .tv .one-hide {
+  width: 148px;
+  height: 77px;
+  background: #ff6633;
+  position: absolute;
+  left: 50px;
+  top: 366px;
+  padding: 0 44px;
+}
+.box .tv .one-hide :nth-child(1) {
+  font-size: 12px;
+  color: #fff;
+  line-height: 24px;
+}
+.box .tv .one-hide :nth-child(2) {
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 18px;
+}
+.box .tv2 {
+  width: 236px;
+  height: 300px;
+  margin-right: 13px;
+  float: left;
+}
+.box .tv2 .tv-two {
+  width: 148px;
+  height: 300px;
+  background: #fff;
+  padding: 0 44px;
+  position: relative;
+}
+.box .tv2 .tv-two :nth-child(1) {
+  width: 64px;
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  background: #ff3333;
+  font-size: 12px;
+  color: #ffffff;
+  margin-left: 43px;
+  margin-bottom: 48px;
+}
+.box .tv2 .tv-two :nth-child(2) {
+  display: block;
+  margin-left: 7px;
+  margin-bottom: 47px;
+}
+.box .tv2 .tv-two :nth-child(3) {
+  font-size: 12px;
+  line-height: 21px;
+  color: #333333;
+  padding-left: 19px;
+}
+.box .tv2 .tv-two :nth-child(4) {
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 18px;
+}
+.box .tv2 .tv-two :nth-child(5) {
+  line-height: 45px;
+  font-size: 10px;
+  color: #ff6600;
+}
+.box .tv2 .tv-two :nth-child(6) {
+  line-height: 45px;
+  font-size: 10px;
+  color: #cc9999;
+  text-decoration: line-through;
+}
+.box .tv2:hover .two-hide {
+  transform: translateY(-93px);
+  transition: all 1s;
+}
+.box .tv2 .two-hide {
+  width: 148px;
+  height: 77px;
+  background: #ff6633;
+  position: absolute;
+  left: 299px;
+  top: 366px;
+  padding: 0 44px;
+}
+.box .tv2 .two-hide :nth-child(1) {
+  font-size: 12px;
+  color: #fff;
+  line-height: 24px;
+}
+.box .tv2 .two-hide :nth-child(2) {
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 18px;
+}
+.box .tv3 {
+  width: 236px;
+  height: 300px;
+  margin-right: 13px;
+  float: left;
+}
+.box .tv3 .tv-thr {
+  width: 148px;
+  height: 300px;
+  background: #fff;
+  padding: 0 44px;
+  position: relative;
+}
+.box .tv3 .tv-thr :nth-child(1) {
+  width: 64px;
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  background: #66cc66;
+  font-size: 12px;
+  color: #ffffff;
+  margin-left: 43px;
+  margin-bottom: 48px;
+}
+.box .tv3 .tv-thr :nth-child(2) {
+  display: block;
+  margin-left: 7px;
+  margin-bottom: 47px;
+}
+.box .tv3 .tv-thr :nth-child(3) {
+  font-size: 12px;
+  line-height: 21px;
+  color: #333333;
+  padding-left: 19px;
+}
+.box .tv3 .tv-thr :nth-child(4) {
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 18px;
+}
+.box .tv3 .tv-thr :nth-child(5) {
+  line-height: 45px;
+  font-size: 10px;
+  color: #ff6600;
+}
+.box .tv3 .tv-thr :nth-child(6) {
+  line-height: 45px;
+  font-size: 10px;
+  color: #cc9999;
+  text-decoration: line-through;
+}
+.box .tv3:hover .thr-hide {
+  transform: translateY(-93px);
+  transition: all 1s;
+}
+.box .tv3 .thr-hide {
+  width: 148px;
+  height: 77px;
+  background: #ff6633;
+  position: absolute;
+  left: 548px;
+  top: 366px;
+  padding: 0 44px;
+}
+.box .tv3 .thr-hide :nth-child(1) {
+  font-size: 12px;
+  color: #fff;
+  line-height: 24px;
+}
+.box .tv3 .thr-hide :nth-child(2) {
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 18px;
+}
+.box .tv4 {
+  width: 236px;
+  height: 300px;
+  margin-right: 13px;
+  float: left;
+}
+.box .tv4 .tv-four {
+  width: 148px;
+  height: 300px;
+  background: #fff;
+  padding: 0 44px;
+  position: relative;
+}
+.box .tv4 .tv-four :nth-child(1) {
+  width: 64px;
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  margin-left: 43px;
+  margin-bottom: 48px;
+}
+.box .tv4 .tv-four :nth-child(2) {
+  display: block;
+  margin-left: 7px;
+  margin-bottom: 47px;
+}
+.box .tv4 .tv-four :nth-child(3) {
+  font-size: 12px;
+  line-height: 21px;
+  color: #333333;
+  padding-left: 19px;
+}
+.box .tv4 .tv-four :nth-child(4) {
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 18px;
+}
+.box .tv4 .tv-four :nth-child(5) {
+  line-height: 45px;
+  font-size: 10px;
+  color: #ff6600;
+}
+.box .tv4 .tv-four :nth-child(6) {
+  line-height: 45px;
+  font-size: 10px;
+  color: #cc9999;
+  text-decoration: line-through;
+}
+.box .tv4:hover .four-hide {
+  transform: translateY(-93px);
+  transition: all 1s;
+}
+.box .tv4 .four-hide {
+  width: 148px;
+  height: 77px;
+  background: #ff6633;
+  position: absolute;
+  left: 797px;
+  top: 366px;
+  padding: 0 44px;
+}
+.box .tv4 .four-hide :nth-child(1) {
+  font-size: 12px;
+  color: #fff;
+  line-height: 24px;
+}
+.box .tv4 .four-hide :nth-child(2) {
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 18px;
+}
+.box .tv5 {
+  width: 236px;
+  height: 300px;
+  margin-right: 13px;
+  margin-top: 16px;
+  float: left;
+}
+.box .tv5 .tv-five {
+  width: 148px;
+  height: 300px;
+  background: #fff;
+  padding: 0 44px;
+  position: relative;
+}
+.box .tv5 .tv-five :nth-child(1) {
+  width: 64px;
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  background: #ff3333;
+  font-size: 12px;
+  color: #ffffff;
+  margin-left: 43px;
+  margin-bottom: 48px;
+}
+.box .tv5 .tv-five :nth-child(2) {
+  display: block;
+  margin-left: 7px;
+  margin-bottom: 47px;
+}
+.box .tv5 .tv-five :nth-child(3) {
+  font-size: 12px;
+  line-height: 21px;
+  color: #333333;
+  padding-left: 19px;
+}
+.box .tv5 .tv-five :nth-child(4) {
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 18px;
+}
+.box .tv5 .tv-five :nth-child(5) {
+  line-height: 45px;
+  font-size: 10px;
+  color: #ff6600;
+}
+.box .tv5 .tv-five :nth-child(6) {
+  line-height: 45px;
+  font-size: 10px;
+  color: #cc9999;
+  text-decoration: line-through;
+}
+.box .tv5:hover .five-hide {
+  transform: translateY(-112px);
+  transition: all 1s;
+}
+.box .tv5 .five-hide {
+  width: 148px;
+  height: 77px;
+  background: #ff6633;
+  position: absolute;
+  left: 50px;
+  top: 700px;
+  padding: 0 44px;
+}
+.box .tv5 .five-hide :nth-child(1) {
+  font-size: 12px;
+  color: #fff;
+  line-height: 24px;
+}
+.box .tv5 .five-hide :nth-child(2) {
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 18px;
+}
+.box .tv6 {
+  width: 236px;
+  height: 300px;
+  margin-right: 13px;
+  margin-top: 16px;
+  float: left;
+}
+.box .tv6 .tv-six {
+  width: 148px;
+  height: 300px;
+  background: #fff;
+  padding: 0 44px;
+  position: relative;
+}
+.box .tv6 .tv-six :nth-child(1) {
+  width: 64px;
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  background: #ff3333;
+  font-size: 12px;
+  color: #ffffff;
+  margin-left: 43px;
+  margin-bottom: 48px;
+}
+.box .tv6 .tv-six :nth-child(2) {
+  display: block;
+  margin-left: 7px;
+  margin-bottom: 47px;
+}
+.box .tv6 .tv-six :nth-child(3) {
+  font-size: 12px;
+  line-height: 21px;
+  color: #333333;
+  padding-left: 19px;
+}
+.box .tv6 .tv-six :nth-child(4) {
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 18px;
+}
+.box .tv6 .tv-six :nth-child(5) {
+  line-height: 45px;
+  font-size: 10px;
+  color: #ff6600;
+}
+.box .tv6 .tv-six :nth-child(6) {
+  line-height: 45px;
+  font-size: 10px;
+  color: #cc9999;
+  text-decoration: line-through;
+}
+.box .tv6:hover .six-hide {
+  transform: translateY(-112px);
+  transition: all 1s;
+}
+.box .tv6 .six-hide {
+  width: 148px;
+  height: 77px;
+  background: #ff6633;
+  position: absolute;
+  left: 299px;
+  top: 700px;
+  padding: 0 44px;
+}
+.box .tv6 .six-hide :nth-child(1) {
+  font-size: 12px;
+  color: #fff;
+  line-height: 24px;
+}
+.box .tv6 .six-hide :nth-child(2) {
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 18px;
+}
+.box .tv7 {
+  width: 236px;
+  height: 300px;
+  margin-right: 13px;
+  margin-top: 16px;
+  float: left;
+}
+.box .tv7 .tv-sev {
+  width: 148px;
+  height: 300px;
+  background: #fff;
+  padding: 0 44px;
+  position: relative;
+}
+.box .tv7 .tv-sev :nth-child(1) {
+  width: 64px;
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  background: #ff3333;
+  font-size: 12px;
+  color: #ffffff;
+  margin-left: 43px;
+  margin-bottom: 48px;
+}
+.box .tv7 .tv-sev :nth-child(2) {
+  display: block;
+  margin-left: 7px;
+  margin-bottom: 47px;
+}
+.box .tv7 .tv-sev :nth-child(3) {
+  font-size: 12px;
+  line-height: 21px;
+  color: #333333;
+  padding-left: 19px;
+}
+.box .tv7 .tv-sev :nth-child(4) {
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 18px;
+}
+.box .tv7 .tv-sev :nth-child(5) {
+  line-height: 45px;
+  font-size: 10px;
+  color: #ff6600;
+}
+.box .tv7 .tv-sev :nth-child(6) {
+  line-height: 45px;
+  font-size: 10px;
+  color: #cc9999;
+  text-decoration: line-through;
+}
+.box .tv7:hover .sev-hide {
+  transform: translateY(-112px);
+  transition: all 1s;
+}
+.box .tv7 .sev-hide {
+  width: 148px;
+  height: 77px;
+  background: #ff6633;
+  position: absolute;
+  left: 547px;
+  top: 700px;
+  padding: 0 44px;
+}
+.box .tv7 .sev-hide :nth-child(1) {
+  font-size: 12px;
+  color: #fff;
+  line-height: 24px;
+}
+.box .tv7 .sev-hide :nth-child(2) {
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 18px;
+}
+.box .last1 {
+  width: 236px;
+  height: 144px;
+  background: #fff;
+  float: left;
+  margin-top: 16px;
+  position: relative;
+}
+.box .last1 .last-one {
+  width: 167px;
+  height: 65px;
+  margin-top: 43px;
+  margin-left: 31px;
+  margin-bottom: 13px;
+  overflow: hidden;
+}
+.box .last1 .last-one :nth-child(1) {
+  float: left;
+  font-size: 14px;
+  color: #333333;
+}
+.box .last1 .last-one p {
+  font-size: 10px;
+  color: #ff6600;
+  float: left;
+  margin-top: 34px;
+  margin-left: -66px;
+}
+.box .last1 .last-one :nth-child(3) {
+  width: 44px;
+  height: 64px;
+  float: right;
+}
+.box .last2 {
+  width: 236px;
+  height: 142px;
+  background: #fff;
+  float: left;
+  margin-top: 15px;
+  position: relative;
+}
+.box .last2 .last-two {
+  width: 167px;
+  height: 65px;
+  margin-top: 43px;
+  margin-left: 31px;
+  margin-bottom: 13px;
+  overflow: hidden;
+}
+.box .last2 .last-two :nth-child(1) {
+  float: left;
+  font-size: 14px;
+  color: #333333;
+}
+.box .last2 .last-two p {
+  font-size: 10px;
+  color: #ff6600;
+  float: left;
+  margin-top: 34px;
+  margin-left: -66px;
+}
+.box .last2 .last-two :nth-child(3) {
+  width: 44px;
+  height: 64px;
+  float: right;
+}
